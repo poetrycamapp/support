@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soporte - PoetryCam</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fcfcfc;
+      --text: #585858;
+      --muted: #585858;
+      --card: #fcfcfc;
+      --accent: #000000;
+    }
+    body {
+      margin: 0;
+      font-family: "Helvetica", "Arial", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.4;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    h1, h2, h3 {
+      font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      color: var(--accent);
+      line-height: 1.25;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 32px;
+      font-weight: 500;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 18px;
+      font-weight: 500;
+    }
+    .card {
+      background: var(--card);
+      border: none;
+      border-radius: 14px;
+      padding: 22px 24px;
+      box-shadow: none;
+    }
+    .logo {
+      display: block;
+      margin: 8px auto 18px;
+      width: 180px;
+      max-width: 60%;
+      height: auto;
+    }
+    .meta {
+      color: var(--muted);
+      margin: 0 0 20px;
+      font-size: 0.95rem;
+    }
+    ul {
+      padding-left: 18px;
+      margin: 8px 0 0;
+    }
+    li {
+      margin: 6px 0;
+    }
+    .contact {
+      font-weight: 600;
+    }
+    .faq {
+      margin-top: 24px;
+    }
+    .faq details {
+      border-top: 1px solid #e4e4e4;
+      padding: 12px 0;
+    }
+    .faq details:last-of-type {
+      border-bottom: 1px solid #e4e4e4;
+    }
+    .faq summary {
+      cursor: pointer;
+      font-weight: 500;
+      color: #000000;
+      list-style: none;
+      outline: none;
+    }
+    .faq summary::-webkit-details-marker {
+      display: none;
+    }
+    .faq summary::after {
+      content: "+";
+      float: right;
+      color: #000000;
+      font-weight: 700;
+    }
+    .faq details[open] summary::after {
+      content: "-";
+    }
+    .faq .answer {
+      display: block;
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: max-height 0.35s ease, opacity 0.35s ease;
+    }
+    .faq details:not([open]) > .answer {
+      display: block;
+    }
+    .faq details[open] .answer {
+      max-height: 320px;
+      opacity: 1;
+    }
+    .faq .answer p {
+      margin: 8px 0 0;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <img class="logo" src="poetrycam-logo-dark.svg" alt="Logo de PoetryCam">
+      <h1>Soporte de PoetryCam</h1>
+      <p>Convierte cada foto en poes&iacute;a: cada imagen se transforma en palabras, ritmo e imaginaci&oacute;n.</p>
+      <h2>&iquest;Necesitas ayuda?</h2>
+      <ul>
+        <li>Email: poetrycamapp@gmail.com</li>
+        <li><a href="https://www.tiktok.com/@poetrycam.app">TikTok</a></li>
+        <li><a href="https://www.instagram.com/poetrycam.app/">Instagram</a></li>
+      </ul>
+
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq">
+        <details>
+          <summary>&iquest;C&oacute;mo funciona PoetryCam?</summary>
+          <div class="answer">
+            <p>Tomas una foto, eliges un estilo y la app genera un poema inspirado en la imagen con ayuda de inteligencia artificial.</p>
+          </div>
+        </details>
+        <details>
+          <summary>&iquest;Las fotos se guardan en el dispositivo?</summary>
+          <div class="answer">
+            <p>S&iacute;. Las fotos se guardan en la galer&iacute;a del dispositivo. Cuando inicias sesi&oacute;n, el contenido tambi&eacute;n se almacena en nuestros servicios para que puedas recuperarlo si desinstalas la app.</p>
+          </div>
+        </details>
+        <details>
+          <summary>&iquest;PoetryCam funciona sin conexi&oacute;n a Internet?</summary>
+          <div class="answer">
+            <p>Se requiere conexi&oacute;n a Internet para generar el poema. Ver contenido ya guardado puede funcionar sin conexi&oacute;n.</p>
+          </div>
+        </details>
+        <details>
+          <summary>&iquest;La app es gratuita?</summary>
+          <div class="answer">
+            <p>PoetryCam es gratuita con anuncios. Puedes eliminar los anuncios con una compra &uacute;nica.</p>
+          </div>
+        </details>
+        <details>
+          <summary>&iquest;C&oacute;mo puedo eliminar mi cuenta?</summary>
+          <div class="answer">
+            <p>Puedes eliminar tu cuenta desde la configuraci&oacute;n de la app. Como alternativa, escr&iacute;benos por email y te ayudaremos con la solicitud.</p>
+          </div>
+        </details>
+        <details>
+          <summary>&iquest;Puedo reportar un problema o enviar comentarios?</summary>
+          <div class="answer">
+            <p>S&iacute;. Env&iacute;a un email con una breve descripci&oacute;n del problema, tu versi&oacute;n de iOS y de la app, y cualquier detalle &uacute;til.</p>
+          </div>
+        </details>
+      </div>
+
+      <h2>Privacidad</h2>
+      <p>
+        Para m&aacute;s detalles sobre el tratamiento de datos personales, consulta la
+        <a href="https://poetrycamapp.github.io/privacy-policy/privacy-en.html">Pol&iacute;tica de privacidad</a>.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
